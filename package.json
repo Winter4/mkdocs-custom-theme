@@ -4,7 +4,7 @@
   "description": "A custom theme for MkDocs",
   "main": "index.js",
   "scripts": {
-    "build": "postcss theme/main.css -o theme/main.min.css"
+    "build": "npx postcss theme/main.css -o theme/main.min.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
