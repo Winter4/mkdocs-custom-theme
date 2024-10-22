@@ -1,0 +1,6 @@
+theme:
+  name: null
+  custom_dir: theme
+site_name: 'My Custom MkDocs Site'
+site_description: 'A custom site built with MkDocs'
+site_author: 'Vladimir Karpovich'

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ config.site_description }}">
+    <meta name="author" content="{{ config.site_author }}">
+    <title>{{ config.site_name }}</title>
+    <link rel="stylesheet" href="{{ base_url }}/theme/main.css">
+</head>
+<body>
+    {% include "partials/header.html" %}
+    <main>
+        {{ content }}
+    </main>
+    {% include "partials/footer.html" %}
+    <script src="{{ base_url }}/theme/custom.js"></script>
+</body>
+</html>
